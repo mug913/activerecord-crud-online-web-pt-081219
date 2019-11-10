@@ -10,3 +10,4 @@ Movie.create(title: "Muppets Most Wanted", release_date: 2014, director: "James 
 
 Movie.create(title: "Zero Dark Thirty", release_date: 2012, director: "Kathryn Bigelow", lead: "Jessica Chastain", in_theaters: false)
 puts "#{Movie.count} added"
+puts "#{Movie.first} is first"
